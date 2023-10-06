@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+button {
+  width: 250px;
+}
+
+#list-container {
+  display: flex;
+  justify-content: center;
+}

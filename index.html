@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./JS/main.js" type="module"></script>
     <script src="./JS/module/utils/math.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Projet JS avancé</title>
   </head>
   <body>
-    <div>
+    <h1>Liste des cinémas</h1>
+    <div id="btn-container">
+      <button id="btn-prev">Précédent</button>
+      <p id="current-page">1</p>
+      <button id="btn-next">Suivant</button>
+    </div>
+    <div id="list-container">
       <ul id="list"></ul>
     </div>
   </body>
